@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Book",
+      "size": "32/25/12 см",
+      "price": 10.99,
+      "imgUrl": "/public/store/item-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "size": "32/25/12 см",
+      "price": 1199,
+      "imgUrl": "/public/store/item-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "size": "32/25/12 см",
+      "price": 1.05,
+      "imgUrl": "/public/store/item-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Car",
+      "size": "32/25/12 см",
+      "price": 14000,
+      "imgUrl": "/public/store/item-10.jpg"
+    }
+  ]
