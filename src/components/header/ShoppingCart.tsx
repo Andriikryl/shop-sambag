@@ -6,18 +6,17 @@ import styles from "./style.module.css";
 type ShoppingCartProps = {
   isOpen?: boolean;
   activeState: boolean;
-}
+};
 
 export function ShoppingCart({ activeState }: ShoppingCartProps) {
-  const { closeCart, cartItems } = useShoppingCart();
+  const { cartItems } = useShoppingCart();
   return (
     <>
       <div
         className={`${styles.cart} ${activeState ? styles.menu_active : ""}`}
       >
         <h2>Cart</h2>
-        <button onClick={closeCart}>close</button>
-        <div>
+        <div className={styles.cart__item}>
           {cartItems.map((item) => (
             <CartItem key={item.id} {...item} />
           ))}
