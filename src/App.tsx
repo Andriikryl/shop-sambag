@@ -1,7 +1,8 @@
 import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
-  return <h1>asd</h1>;
+  return <Header />;
 }
 
 export default App;
