@@ -1,4 +1,5 @@
 import { Container } from "../container/Container";
+import HeaderBottom from "./HeaderBottom";
 import HeaderTop from "./HeaderTop";
 
 export default function Header() {
@@ -6,6 +7,7 @@ export default function Header() {
     <header>
       <Container>
         <HeaderTop />
+        <HeaderBottom />
       </Container>
     </header>
   );

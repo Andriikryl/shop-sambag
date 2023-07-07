@@ -28,3 +28,25 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.header__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 9px;
+}
+
+.social__controls{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.group__contols{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
