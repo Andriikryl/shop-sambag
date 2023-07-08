@@ -22,13 +22,15 @@
 .hero__title{
     color: var(--header, #454545);
     font-family: Mulish;
-    font-size: 96px;
+    font-size: 25px, 5vw + 1rem, 96px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
     margin-block-end: 30px;
 }
+
+
 
 .hero__description{
     color: var(--header, #454545);
@@ -54,4 +56,13 @@
     background: #8B7D6F;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .hero__title{
+        color: #FCFCFC;
+    }
+    .hero__description{
+        color: #FCFCFC;
+    }
 }

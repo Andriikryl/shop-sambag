@@ -25,7 +25,7 @@ export default function HeaderBottom() {
     <div className={styles.header__bottom}>
       <ul className={styles.social__controls}>
         <li className={styles.controls__item}>
-          <a href="#">
+          <a className={styles.logo} href="#">
             <Viber />
           </a>
         </li>

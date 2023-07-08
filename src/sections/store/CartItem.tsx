@@ -1,6 +1,7 @@
 import { useShoppingCart } from "../../context/ShopingCarContext";
 import storeItems from "../../data/items.json";
 import { formatCurrency } from "../../utilites/formatCurency";
+import styles from "./styles.module.css";
 
 type CartItemProps = {
   id: number;
@@ -13,8 +14,10 @@ export function CartItem({ id, quantity }: CartItemProps) {
   if (item == null) return null;
 
   return (
-    <div>
-      <img src={item.imgUrl} alt="image" width="200" height="200" />
+    <li className={styles.list__itemCart}>
+      <div className={styles.item__img}>
+        <img src={item.imgUrl} alt="image" width="260" height="350" />
+      </div>
       <div>
         <span>{item.name}</span>
       </div>
@@ -25,7 +28,12 @@ export function CartItem({ id, quantity }: CartItemProps) {
         <span>{quantity}</span>
       </div>
       <div>{formatCurrency(item.price * quantity)}</div>
-      <button onClick={() => removeFromCart(item.id)}>remove item</button>
-    </div>
+      <button
+        className={styles.cart__btn}
+        onClick={() => removeFromCart(item.id)}
+      >
+        remove item
+      </button>
+    </li>
   );
 }

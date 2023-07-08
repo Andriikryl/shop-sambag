@@ -6,7 +6,6 @@ import styles from "./styles.module.css";
 export default function Store() {
   return (
     <Container>
-      <h1>Store</h1>
       <ul className={styles.store__list}>
         {storeItems.map((item) => (
           <li className={styles.list__item} key={item.id}>
