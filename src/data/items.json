@@ -67,6 +67,6 @@
       "name": "Car",
       "size": "32/25/12 см",
       "price": 14000,
-      "imgUrl": "src/store/item-10.jpg"
+      "imgUrl": "../store/item-10.jpg"
     }
   ]
